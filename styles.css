@@ -342,32 +342,22 @@
 
 .langc {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   width: 95px;
   height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  float: left;
 }
 
 .langd {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   width: 61px;
   height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
+  float: left;
 }
 
 .buttonw {
