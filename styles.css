@@ -310,42 +310,34 @@
 }
 
 .worka {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  
+  position:relative;
   padding: 0;
   width: 100%;
   height: 40px;
   list-style-type: none;
+  
 }
 
 .langa {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   width: 49px;
   height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  float:left;
+ 
 }
 
 .langb {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   width: 56px;
   height: 40px;
   background: #fff;
   border: 1px solid #8993a4;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  float:left;
 }
 
 .langc {
